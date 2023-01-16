@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #121213;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +38,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.box_row {
+  display: flex;
+}
+
+.box {
+  height: 62px;
+  width: 62px;
+  border: 2px solid #797063;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  text-transform: uppercase;
 }
